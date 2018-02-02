@@ -19,7 +19,7 @@
 #include <util/delay.h>
 #include <avr/io.h>
 
-#define FOSC 16000000UL                                  //16Mhz
+#define F_CPU 16000000UL                                  //16Mhz
 #define BAUD_RATE 9600                                   // 9600 baud
 #define UCBR_BAUD ( ( FOSC / (16UL * BAUD_RATE) )  -1 )  // 103
 
